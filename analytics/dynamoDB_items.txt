@@ -1,0 +1,85 @@
+{
+  "TaskID": { "S": "11" },
+  "Category": { "S": "Work" },
+  "TaskName": { "S": "Draft technical documentation for new API" },
+  "CompletionStatus": { "BOOL": false },
+  "CreatedDate": { "S": "2025-02-01T09:00:00Z" }
+}
+
+{
+  "TaskID": { "S": "12" },
+  "Category": { "S": "Personal" },
+  "TaskName": { "S": "Read 20 pages of a book before bed" },
+  "CompletionStatus": { "BOOL": true },
+  "CompletionDate": { "S": "2025-02-02T21:00:00Z" },
+  "CreatedDate": { "S": "2025-01-30T08:30:00Z" }
+}
+
+{
+  "TaskID": { "S": "13" },
+  "Category": { "S": "Family" },
+  "TaskName": { "S": "Plan a family game night" },
+  "CompletionStatus": { "BOOL": false },
+  "CreatedDate": { "S": "2025-02-03T12:00:00Z" }
+}
+
+{
+  "TaskID": { "S": "14" },
+  "Category": { "S": "Health" },
+  "TaskName": { "S": "Try a new yoga routine" },
+  "CompletionStatus": { "BOOL": true },
+  "CompletionDate": { "S": "2025-02-04T07:30:00Z" },
+  "CreatedDate": { "S": "2025-01-29T10:15:00Z" }
+}
+
+{
+  "TaskID": { "S": "15" },
+  "Category": { "S": "Work" },
+  "TaskName": { "S": "Attend team sprint review meeting" },
+  "CompletionStatus": { "BOOL": true },
+  "CompletionDate": { "S": "2025-02-05T11:00:00Z" },
+  "CreatedDate": { "S": "2025-02-01T09:30:00Z" }
+}
+
+{
+  "TaskID": { "S": "16" },
+  "Category": { "S": "Education" },
+  "TaskName": { "S": "Watch a lecture on database design" },
+  "CompletionStatus": { "BOOL": false },
+  "CreatedDate": { "S": "2025-02-06T18:00:00Z" }
+}
+
+{
+  "TaskID": { "S": "17" },
+  "Category": { "S": "Home" },
+  "TaskName": { "S": "Fix the squeaky door hinge" },
+  "CompletionStatus": { "BOOL": true },
+  "CompletionDate": { "S": "2025-02-07T14:15:00Z" },
+  "CreatedDate": { "S": "2025-02-02T10:00:00Z" }
+}
+
+{
+  "TaskID": { "S": "18" },
+  "Category": { "S": "Social" },
+  "TaskName": { "S": "Send a birthday card to a friend" },
+  "CompletionStatus": { "BOOL": true },
+  "CompletionDate": { "S": "2025-02-08T16:30:00Z" },
+  "CreatedDate": { "S": "2025-02-06T13:20:00Z" }
+}
+
+{
+  "TaskID": { "S": "19" },
+  "Category": { "S": "Health" },
+  "TaskName": { "S": "Cook a balanced dinner instead of ordering takeout" },
+  "CompletionStatus": { "BOOL": false },
+  "CreatedDate": { "S": "2025-02-09T19:00:00Z" }
+}
+
+{
+  "TaskID": { "S": "20" },
+  "Category": { "S": "Work" },
+  "TaskName": { "S": "Prepare slides for the weekly status update" },
+  "CompletionStatus": { "BOOL": true },
+  "CompletionDate": { "S": "2025-02-10T09:00:00Z" },
+  "CreatedDate": { "S": "2025-02-07T08:45:00Z" }
+}

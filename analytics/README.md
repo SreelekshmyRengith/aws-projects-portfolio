@@ -1,12 +1,12 @@
 # Serverless Analytics with AWS DynamoDB, Athena, S3, Glue & QuickSight  
 
-## 📖 Overview  
+##  Overview  
 
 This project demonstrates how to build a **serverless end-to-end analytics pipeline** on AWS by connecting **DynamoDB** (NoSQL) data to **QuickSight dashboards** using **Athena** as the query layer, **Lambda** as the connector, and **S3** as the spill location. The project showcases how to integrate NoSQL and SQL worlds to enable real-time reporting without managing servers.  
 
 ---
 
-## 🎯 Objective  
+##  Objective  
 
 - Store task data in **DynamoDB**  
 - Query the data using **Athena** via the **DynamoDB Lambda Connector**  
@@ -17,7 +17,7 @@ This project demonstrates how to build a **serverless end-to-end analytics pipel
 
 ---
 
-## 🛠️ Technologies Used  
+##  Technologies Used  
 
 - **Amazon DynamoDB** – NoSQL data store  
 - **AWS Lambda** – DynamoDB–Athena connector  
@@ -29,7 +29,7 @@ This project demonstrates how to build a **serverless end-to-end analytics pipel
 
 ---
 
-## 🔄 Data Flow  
+##  Data Flow  
 
 1. **DynamoDB** holds JSON items representing tasks.  
 2. **Athena** queries DynamoDB using SQL via the **Lambda Connector**.  
@@ -56,13 +56,13 @@ This project demonstrates how to build a **serverless end-to-end analytics pipel
   "CompletionDate": { "S": "2025-01-15T17:00:00Z" },
   "CreatedDate": { "S": "2025-01-10T10:00:00Z" }
 }
-
-📸 *DynamoDB Table Screenshot*  
+```
+ *DynamoDB Table Screenshot*  
 ![DynamoDB Table](images/dynamodb.png)  
 
 ---
 
-## ⚡ Lambda DynamoDB Connector  
+##  Lambda DynamoDB Connector  
 
 - AWS provides a **pre-built Lambda function** for querying DynamoDB from Athena.  
 - Configure the Lambda with:  
